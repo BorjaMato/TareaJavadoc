@@ -8,7 +8,17 @@
 
 package proyecto_interes;
 import java.util.*;
+
+/**
+ * El Main de los intereses
+ * @author Proyecto de BorjaMato
+ */
 public class Main {
+
+    /**
+     * Clase principal del proyecto
+     * @param args donde sucede la magia
+     */
     public static void main(String[] args) {
         System.out.println("CÁLCULO DEL INTERÉS SIMPLE");
         Scanner teclado = new Scanner(System.in);
