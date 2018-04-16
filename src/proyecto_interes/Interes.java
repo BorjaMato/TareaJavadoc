@@ -8,13 +8,16 @@ package proyecto_interes;
 
 /**
  * Los intereses
- * @author uadmin
+ * @author BorjaMato
  * @version 1.0.1
  */
 public class Interes {
 
     /**
-     * Esta es la clase Interes donde esta x capital redito y tiempo
+     * x=2
+     * capital 
+     * redito 
+     * tiempo
      */
     public int x=2;
     private float capital;
@@ -36,7 +39,7 @@ public class Interes {
     /**
      *
      * @return double captial*reduto*tiempo/100
-     * @throws Exception
+     * @throws Exception error por ser menor o igual que 0
      */
     public double CalcularInteres()throws Exception{
         if (capital<=0)
